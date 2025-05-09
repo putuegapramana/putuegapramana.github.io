@@ -78,18 +78,18 @@ body {
   border-radius: 12px;
 }
 
-.features {
+.komunitas {
   padding: 60px 0;
   text-align: center;
 }
-.feature-list {
+.komunitas-list {
   display: flex;
   gap: 30px;
   margin-top: 40px;
   justify-content: center;
   flex-wrap: wrap;
 }
-.feature-card {
+.komunitas-kolom {
   background: #fff;
   padding: 30px;
   border-radius: 12px;
@@ -109,7 +109,7 @@ body {
     color: #364f6b;
 }
 
-.container-features h2 {
+.container-kolom h2 {
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 45px;
@@ -238,7 +238,7 @@ body {
         align-items: center;
     }
     .navbar ul li {
-        margin-bottom: 10px; 
+        margin: auto;
     }
 }
 

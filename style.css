@@ -200,3 +200,16 @@ body {
 .footer-section p {
   margin-bottom: 5px;
 }
+
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }

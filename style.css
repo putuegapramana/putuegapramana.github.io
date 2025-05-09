@@ -201,16 +201,44 @@ body {
   margin-bottom: 5px;
 }
 
-@media (max-width: 768px) {
-    nav li {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 10px;
+@media (max-width: 767px) { 
+    .container {
+        width: 95%; 
+        padding: 0 10px; 
+    }
+    .Pendakian-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .Pendakian .text h1 {
+        font-size: 30px; 
+    }
+    .pendakian-img img {
+        max-width: 100%; 
+        margin-top: 20px; 
+    }
+    .feature-list {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .feature-card {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+    .about-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .about img {
+        max-width: 100%;
+        margin-top: 20px; 
+    }
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul li {
+        margin-bottom: 10px; 
     }
 }
 
-@media screen and (max-width: 991.98px) {
-    .container {
-        width: 90%;
-    }
-}

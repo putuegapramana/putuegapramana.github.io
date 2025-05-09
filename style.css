@@ -209,9 +209,8 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 991.98px) {
     .container {
-        padding: 10px;
-    }
-
+        width: 90%;
+    }
 }

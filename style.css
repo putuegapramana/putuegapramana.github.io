@@ -203,16 +203,30 @@ body {
 
 @media (max-width: 768px) {
   .Pendakian-content {
-    flex-direction: column;
-}
+    flex-direction: column; 
+  }
+  .pendakian-img img {
+    max-width: 100%;
+  }
+  .komunitas-kolom {
+    width: 100%; 
+    max-width: 100%;
+  }
+  .about-content {
+    flex-direction: column; 
+  }
+  .about img {
+    max-width: 100%;
+  }
   .footer-section {
-    flex-basis: 100%;
-}
- .navbar ul {
-    flex-direction: column; vertically */
-    align-items: center;
-}
+    flex-basis: 100%; 
+  }
+  .navbar ul {
+    flex-direction: column; 
+    align-items: centecenter; 
+  }
   .navbar ul li {
-    margin-bottom:
+    margin-bottom: 10px;
+  }
 }
- }
+ 

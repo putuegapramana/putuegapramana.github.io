@@ -201,8 +201,18 @@ body {
   margin-bottom: 5px;
 }
 
- @media (max-width: 768px) {
-      .container {
-       padding: 10px;
-       }
+@media (max-width: 768px) {
+  .Pendakian-content {
+    flex-direction: column;
+}
+  .footer-section {
+    flex-basis: 100%;
+}
+ .navbar ul {
+    flex-direction: column; vertically */
+    align-items: center;
+}
+  .navbar ul li {
+    margin-bottom:
+}
  }

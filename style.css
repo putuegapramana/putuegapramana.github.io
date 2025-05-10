@@ -223,7 +223,7 @@ body {
   }
   .navbar ul {
     flex-direction: column; 
-    align-items: centecenter; 
+    align-items: center; 
   }
   .navbar ul li {
     margin-bottom: 10px;
